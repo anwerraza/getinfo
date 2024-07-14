@@ -21,5 +21,26 @@ GETINFO is a Python script that retrieves information about a specified domain i
 
 1. **Clone the repository:**
    ```bash
-   git clone +GITHUB LINK+
+   git clone +github_link+
    cd GETINFO
+2. **Install required Python packages:**
+   pip install dnspython requests
+3. **Run the script:**
+   python getinfo.py
+
+Example
+python getinfo.py
+Enter the domain name: example.com
+
+IP Address: 93.184.216.34
+
+DNS Records (A):
+- 93.184.216.34
+
+Open Ports:
+- 80
+- 443
+
+Server: ECS (iad/2FC0)
+Issuer: DigiCert SHA2 Secure Server CA
+SSL Certificate Subject: *.example.com
