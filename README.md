@@ -24,11 +24,14 @@ GETINFO is a Python script that retrieves information about a specified domain i
    git clone +github_link+
    cd GETINFO
 2. **Install required Python packages:**
+   ```bash
    pip install dnspython requests
-3. **Run the script:**
+4. **Run the script:**
+   ```bash
    python getinfo.py
 
-Example
+Example:
+
 python getinfo.py
 Enter the domain name: example.com
 
